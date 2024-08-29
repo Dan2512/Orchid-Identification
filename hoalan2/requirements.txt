@@ -1,5 +1,4 @@
 numpy==2.1.0
 opencv_python==4.8.1.78
-Pillow==10.1.0
 Pillow==10.4.0
 ultralytics==8.0.212
