@@ -7,11 +7,19 @@
   Bộ dữ liệu mới về 5 loại hoa Lan được xây dựng dựa trên cấu trúc COCO128 bao gồm images (chứa thư mục train2017 chứa các ảnh) và labels (chứa thư mục train2017 chứa các nhãn tọa độ của ảnh tương ứng).
 Bao gồm các loại hoa: Calopogon tuberosus (11), Calypso bulbosa (12), Cypripedium acaule (27), Cypripedium parviflorum (33), Pogonia ophioglossoides (125).
 Kho dữ liệu mới dùng để train mô hình gồm 969 file ảnh chứa hoa Lan của 5 loại hoa Lan và 969 file .txt chứa nhãn tương ứng.
-
+- Chú ý: Khi upload dự án lên github, mình không up thư mục "venv" vì thư mục này có dung lượng rất lớn.
 2. Cách chạy file:
-- Cài đặt thư viện trong file requirement.txt và chạy.
+- Tạo lại môi trường ảo, cài đặt thư viện trong file requirement.txt và chạy.
 - Dùng PyCharm hoặc Visual Studio Code đều được.
-
+- Cụ thể: khi cần tái tạo lại môi trường ảo, bạn có thể làm theo các bước:
+  a) Tạo môi trường ảo mới:
+     python -m venv venv
+  b) Kích hoạt môi trường ảo:
+  Trên Windows: .\venv\Scripts\activate
+  Trên macOS/Linux: source venv/bin/activate
+  c) Cài đặt các thư viện từ requirements.txt
+  pip install -r requirements.txt
+  
 3. Mục tiêu, đối tượng và phạm vi nghiên cứu:
 Mục tiêu chính của đề tài là nghiên cứu các mạng nơ ron học sâu có thể áp dụng vào bài toán nhận dạng một số loại hoa Lan (5 loại hoa: Calopogon tuberosus, Calypso bulbosa, Cypripedium acaule, Cypripedium parviflorum, Pogonia ophioglossoides.)
 Đối tượng nghiên cứu của đề tài này là bài toán nhận dạng một số loài hoa Lan, các mô hình nhận dạng vật thể, các thành phần chính của một mô hình mạng nhân chập và một số kỹ thuật xử lý ảnh.
