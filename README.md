@@ -47,18 +47,23 @@ Phụ lục: Giới thiệu về 5 loài hoa lan (đối tượng nghiên cứu 
 a) Calopogon tuberosus
 Calopogon tuberosus là một loài phong lan bản địa của miền đông Bắc Mỹ. 
 Cây lan Calopogon tuberosus có hoa màu hồng hoặc tím nhạt, thường có chiều cao từ 20 đến 60 cm. Hoa thường mọc đơn lẻ hoặc thành cụm nhỏ ở đỉnh của thân cây. Đặc điểm nổi bật của loài này là có ba cánh đài hoa lớn và một cánh đài nhỏ, cùng với một mũi nhụy trên phía trên của hoa.
+![lan1](https://github.com/user-attachments/assets/1554ff4c-8a77-4359-8c3f-2a26ba48ebb6)
 b) Calypso bulbosa
 Calypso bulbosa là tên khoa học của một loài lan đất, thường được gọi là "Fairy Slipper" hoặc "Calypso Orchid”, có hoa nhỏ, được tìm thấy chủ yếu ở vùng Bắc bán cầu, chẳng hạn như ở Bắc Mỹ, châu Âu, và châu Á.
 Calypso bulbosa nổi tiếng với vẻ đẹp tinh tế của hoa nhỏ màu tím hoặc hồng, thường có các đốm hoặc vệt màu trắng hoặc hồng nhạt. 
+![lan2](https://github.com/user-attachments/assets/ab48b2c2-a860-4aea-bc32-737e030fad3e)
 c) Cypripedium acaule
 Cypripedium acaule, còn được gọi là Pink Lady's Slipper hoặc Moccasin Flower, là một loài lan phổ biến được tìm thấy ở Bắc Mỹ, chủ yếu trong các khu rừng rậm ẩm ướt, vùng đất rừng phong phú.
 Loài lan này nổi bật với hoa màu hồng tươi hoặc hồng đậm có hình dáng giống như chiếc giày lửng, với một cánh đài lớn hình mũi giày và các cánh đài phụ nhỏ ở phía sau. Cây lan này thường mọc đơn lẻ hoặc thành cụm nhỏ trên thân có thể cao khoảng 20 đến 40 cm.
+![lan3](https://github.com/user-attachments/assets/ea263044-7561-4c68-8024-67dfeffa1286)
 d) Cypripedium parviflorum
 Cypripedium parviflorum thường được gọi là "Yellow Lady's Slipper" trong tiếng Anh. Loài lan này phân bố rộng rãi ở Bắc Mỹ, thường được tìm thấy trong các khu vực rừng rậm, đầm lầy và vùng đất ẩm ướt.
 Yellow Lady's Slipper nổi bật với hoa màu vàng hoặc màu vàng xanh, có hình dáng giống như chiếc giày lửng với một cánh đài lớn hình mũi giày và các cánh đài phụ nhỏ ở phía sau. Cây lan này thường mọc đơn lẻ hoặc thành cụm nhỏ trên thân có thể cao khoảng từ 20 đến 70 cm.
+![lan4](https://github.com/user-attachments/assets/11d87c45-61f2-451f-97f8-2d5d184d89b6)
 e) Pogonia ophioglossoides
 Pogonia ophioglossoides là tên khoa học của một loài lan đất, thường được gọi là "Rose Pogonia" hoặc "Snakemouth Orchid". Loài lan này phân bố rộng rãi ở Bắc Mỹ, thường mọc trong các môi trường ẩm ướt như đầm lầy, bãi đất ngập nước hoặc các khu vực có đất ẩm.
 Rose Pogonia nổi tiếng với hoa màu hồng nhạt hoặc hồng đậm, thường có hình dáng như một mỏ rắn (do đó còn có tên "Snakemouth Orchid"), với các cánh đài và đài hình cong giống như một mỏ rắn mở miệng. Cây lan này thường mọc đơn lẻ hoặc thành cụm nhỏ trên thân có thể cao khoảng 20 đến 40 cm.
+![lan5](https://github.com/user-attachments/assets/233fbe43-836e-4a30-af4f-b6df11f33360)
 
 
 
