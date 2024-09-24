@@ -25,6 +25,7 @@ Kho dữ liệu mới dùng để train mô hình gồm 969 file ảnh chứa ho
   c) Cài đặt các thư viện từ requirements.txt
 
   cd hoalan2
+  
   pip install -r requirements.txt
   
 3. Mục tiêu, đối tượng và phạm vi nghiên cứu:
