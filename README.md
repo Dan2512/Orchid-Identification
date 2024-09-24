@@ -31,6 +31,10 @@ Kho dữ liệu mới dùng để train mô hình gồm 969 file ảnh chứa ho
   cd hoalan2
   
   pip install -r requirements.txt
+
+  d) Lưu ý:
+
+  Khi chương trình chạy: Ấn vào nút "Kiểm tra" rồi sau đó lấy ảnh trong thư mục Test (DATA/test), bấm vào ảnh xong thì hình ảnh sẽ hiện lên giao diện chương trình. Nút "Hiển thị kết quả" xuất hiện. Ấn vào "Hiển thị kết quả", cửa sổ hiển thị kết quả sẽ hiện ra. Đầu vào có thể là ảnh/video/ảnh thu thập từ webcam.
   
 3. Mục tiêu, đối tượng và phạm vi nghiên cứu:
 
