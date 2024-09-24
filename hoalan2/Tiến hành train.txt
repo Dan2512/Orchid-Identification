@@ -2,18 +2,24 @@
 Mở YOLOv8 trên Google Colab 
 Tiến hành cài đặt thư viện.
 
-
+![1](https://github.com/user-attachments/assets/dc95a051-e12d-4b3b-87e0-05e0f9a29b58)
  
 Hình 3. 4: Cài đặt thư viện Ultralytics
 Tải dữ liệu huấn luyện mới (coco128) lên Google Colab và tiến hàng giải nén.
+
+![2](https://github.com/user-attachments/assets/4498d0dc-03e9-4962-93df-e30463c7ab1d)
  
 Hình 3. 5: Giải nén coco128.rar
 Tìm kiếm và chỉnh sửa file coco128.yaml phù hợp với bộ huấn luyện.
+
+![3](https://github.com/user-attachments/assets/f4c5674a-f3ed-42dc-b00b-ecbd56f399e1)
  
 Hình 3. 6: File .yaml
 
  
 Tiến hành train
+
+![4](https://github.com/user-attachments/assets/891a4189-c002-4d31-a978-bcf5c5c5584b)
  
 Hình 3. 7: Train
 
@@ -23,20 +29,22 @@ Trong đó, model = “yolov8n.pt”/ “đường dẫn của file last.pt đã
 3.3.3. Kết quả sau train
 Kết quả thu được file best.pt là file dùng để nhận diện hoa lan.
 Thu được Confusion_matrix chứa ma trận nhầm lẫn của mô hình trên tập kiểm tra. Ma trận này cho biết số lượng các trường hợp mà mô hình dự đoán đúng hoặc sai lớp của các đối tượng.
+
+![5](https://github.com/user-attachments/assets/160c8b9e-0adc-4b3c-a8d3-81d332670f5f)
  
 Hình 3. 8: Confusion Matrix
 Train_batch0 chứa một ảnh minh họa về kết quả của mô hình trên một batch (khối) đầu tiên trong quá trình huấn luyện. Tương tự với train_batch1, train_batch2.
 Cách train theo batch của YOLOv8 là cách huấn luyện mô hình phát hiện đối tượng bằng cách chia tập dữ liệu thành các nhóm nhỏ gọi là batch. Mỗi batch chứa một số lượng ảnh xác định và đưa vào mô hình để tính toán loss và cập nhật trọng số. Ở mô hình này batch size=16 (mỗi lần cập nhật trọng số sử dụng 16 dữ liệu).
  
-
- 
-
+![6](https://github.com/user-attachments/assets/2ae1491b-a0ea-41da-add0-2be06c6fafcf)
  
 Val_batch0_labels chứa một ảnh minh họa về các nhãn thực tế của một batch trong tập kiểm tra. Tương tự với val_batch1_labels và val_batch2_labels.
 
+![7](https://github.com/user-attachments/assets/d58bb7af-1438-4bcd-85a8-6a6ef4a47089)
  
          Val_batch0_pred chứa một số ảnh minh họa về các dự đoán của mô hình trên cùng batch trong tập kiểm tra. Tương tự với val_batch1_pred và val_batch2_pred.
 
+![8](https://github.com/user-attachments/assets/4cf85841-a652-49a6-a029-60fb5c1ea5ee)
  
 3.3.4. Thử nghiệm kết quả
 3.3.4.1. Kết quả sau các lần train khác nhau
@@ -44,30 +52,42 @@ Val_batch0_labels chứa một ảnh minh họa về các nhãn thực tế củ
 Precision (Chính xác): Là tỷ lệ của số lượng các dự đoán đúng của đối tượng so với tổng số dự đoán được gắn nhãn với một lớp cụ thể. 
 Precision thường được tính bằng công thức:
 
-
+![9](https://github.com/user-attachments/assets/b075cf89-ada8-4e53-9073-232a4b25da40)
 
 True Positives (TP) là số lượng dự đoán đúng cho một lớp cụ thể, False Positives (FP) là số lượng dự đoán sai cho lớp đó. Precision cao nghĩa là ít dự đoán sai.
 Recall (R) đo lường tỷ lệ số lượng các đối tượng được định vị đúng so với tổng số lượng đối tượng thực sự có trong bức ảnh. Một Recall cao có nghĩa là ít đối tượng bị bỏ sót.
 "mapS" nghĩa là "mean Average Precision at Different Intersection over Union (IoU) Thresholds" - Trung bình Precision Trung bình ở các Ngưỡng Intersection over Union (IoU) Khác nhau. Thông số này trong kết quả huấn luyện là giá trị trung bình của độ chính xác trung bình (Average Precision - AP) tại các ngưỡng IoU khác nhau.
  
 Kết quả sau khi train 3 lần: 
+
+<img width="674" alt="10" src="https://github.com/user-attachments/assets/06b53662-9ba0-4199-8538-f8546b3d61be">
  
 3.10: Kết quả sau khi train 3 lần
 
+<img width="668" alt="11" src="https://github.com/user-attachments/assets/f81014e2-4af4-4770-836f-aa7daaa8d97b">
 
+3.11: Kết quả sau khi train 10 lần
 
+<img width="671" alt="12" src="https://github.com/user-attachments/assets/8ebaced4-e0d2-46a4-8530-e6b179a474d5">
+
+3.12: Kết quả sau khi train 15 lần 
+
+<img width="668" alt="13" src="https://github.com/user-attachments/assets/4017f7bb-ea29-42ba-9ba2-f622fd315b80">
  
-	
-	
- 
-3.12: Kết quả sau khi train 50 lần
+3.13: Kết quả sau khi train 50 lần
 
 Có thể thấy, số epoch (lần train) càng nhiều thì kết quả train càng chính xác (thể hiện trên các thông số P, R tăng dần).
  
 3.3.4.2. Các trường hợp sai khác
 Dưới đây là một số kết quả thử nghiệm mô hình, kết quả 47/50 ảnh nhận dạng đúng loại hoa lan. Trường hợp sai đầu tiên, nhầm lẫn loài Cypripedium parviflorum thành Cypripedium acaule với phần trăm độ tin cậy là 42%, do ảnh nhỏ, hoa bị mờ dẫn đến nhận dạng không chính xác. Trường hợp 2, chương trình không nhận dạng được loài Corallorhiza trifida, lí do ảnh bị bóng và hoa bị nhầm lẫn thành background. 
-	
-3.13: Trường hợp 1 
+
+![14](https://github.com/user-attachments/assets/504dd71e-2f2e-4fc2-b1bc-8a59488cf584)
+
+3.14: Trường hợp 1 
+
+![15](https://github.com/user-attachments/assets/f4410124-d06e-44d6-9068-8bde460dbb45)
+
+3.15: Trường hợp 2
 
  
 Phương án khắc phục:
